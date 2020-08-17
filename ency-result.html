@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Ency</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -30,10 +30,10 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="nav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Accueil</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="ency.html">Encyclopédie</a>
                     </li>
                     <li class="nav-item">
@@ -44,20 +44,34 @@
         </nav>
 
         <!-- background -->
-        <div id="background" style="background-image: url(assets/img/stranger-things-wallpaper.jpg)"></div>
+        <div id="background" style="background-color: var(--na-dark)"></div>
 
         <!-- content -->
-        <div class="container" id="content">
-            <div class="new row">
-                <div class="col-md-6">
-                    <h1 class="item-tag">Nouveauté</h1>
-                    <h1 class="item-title">Stranger Things</h1>
-                    <h3 class="item-season">Saison 3 disponible</h3>
-                    <p class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quaerat illo
-                        cumque
-                        non quas ad dolor
-                        tenetur atque quibusdam temporibus.</p>
-                </div>
+        <div class="container-fluid" id="content">
+            <form action="ency-result.html" class="form-search">
+                <button type="submit"><i class="las la-search"></i></button>
+                <input type="text" placeholder="Titres, personnes, genres">
+            </form>
+            <div class="ency-search row">
+                <a href="#" class="col-md-3 item">
+                    <div class="item-background" style="background-color: var(--na-grey);"></div>
+                </a>
+                <a href="#" class="col-md-3 item">
+                    <div class="item-background" style="background-color: var(--na-grey);"></div>
+                </a>
+                <a href="#" class="col-md-3 item">
+                    <div class="item-background"
+                        style="background-image: url(assets/img/stranger-things-wallpaper.jpg);"></div>
+                </a>
+                <a href="#" class="col-md-3 item">
+                    <div class="item-background" style="background-color: var(--na-grey);"></div>
+                </a>
+                <a href="#" class="col-md-3 item">
+                    <div class="item-background" style="background-color: var(--na-grey);"></div>
+                </a>
+                <a href="#" class="col-md-3 item">
+                    <div class="item-background" style="background-color: var(--na-grey);"></div>
+                </a>
             </div>
         </div>
     </div>
@@ -71,8 +85,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-
-    <script src="assets/js/parallax.js"></script>
 </body>
 
 </html>
