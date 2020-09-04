@@ -1,2 +1,2 @@
-# Netflixaddicts-Website-Design
+# NetflixAddicts-Website-Design
 NetflixAddicts Design
